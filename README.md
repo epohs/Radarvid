@@ -2,3 +2,13 @@ Radarvid
 ========
 
 Download and archive images from a remote server, then compile them into a video and upload to YouTube.
+
+
+## File summary
+
+* **weather.config** – Contains all login credentials and paths... sensitive info.
+* **weather.py** – This file downloads the image, converts it to a PNG (ffmpeg doesn't like GIF) and saves it.
+* **make_vid.sh** – Grabs downloaded images by date range, converts them into a webm video, and calls the YouTube upload python script.
+* **post_to_youtube.py** – Creates title & description for a video and uploads it to YouTube.
+* **weather.db** – Sqlite3 database. Stores information about every video uploaded to YouTube.
+
