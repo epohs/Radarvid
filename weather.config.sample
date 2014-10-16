@@ -1,0 +1,39 @@
+
+
+# Location of all working scripts
+SCRIPTDIR=/home/yourusername/weather     
+
+# All log files will be written here
+LOGDIR=/home/yourusername/weather_log            
+
+# Temporary symlinks to images are written here to be compiled into video
+TEMPDIR=/home/yourusername/weather_temp  
+
+# Images are permanently stored here
+IMGDIR=/home/yourusername/weather_images
+
+# Raw video is stored here before uploading to youtube
+VIDDIR=/home/yourusername/weather_video
+
+# A symlink to the most recently created raw video is placed here
+PUBDIR=/home/yourusername/public_html/weather 
+
+
+# The source image, coming from remote server
+REMOTEIMG=http://radar.weather.gov/Conus/RadarImg/latest.gif
+
+# Local filesystem user
+LOCALUSER=yourusername
+
+# Local filesystem group
+LOCALGROUP=yourusername
+
+
+
+
+# Youtube stuff
+YT_EMAIL=admin@yourdomain.com
+YT_PASS=XXXXXXXXXXXX
+YT_SOURCE=yourdomain-DEV
+YT_DEV_KEY=XXXXXXXXXXXxxxxxxxxxxXXXXXXXXXXXXxxxxxxxxxXXXXXXXXXXxxxxxxxxxXXXXXXXXX
+YT_CLIENT_ID=yourdomain-com
