@@ -30,8 +30,8 @@ Download and archive images from a remote server, then compile them into a video
 
 ### To-do
 
-* [ ] Code cleanup and better documentation
+* [ ] Code cleanup and better documentation.
 * **make_vid.sh**
   * [ ] Allow for true custom date ranges, instead of the *last-x-days* style that is currently used.
 * **post_to_youtube.py**
-  * [ ] Support for a custom title.
+  * [ ] Support for a custom title via command line arg.
