@@ -1,8 +1,12 @@
 #! /bin/bash
 
 
+# Get the current directory
+my_dir="$(dirname "$0")"
+
+
 # Load config values
-source weather.config
+source "${my_dir}/weather.config"
 
 
 
