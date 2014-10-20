@@ -1,0 +1,17 @@
+# Every Friday - Make a 10 day video
+0 7 * * 5 /home/yourusername/weather/make_vid.sh -d 10 -f 18 > /home/yourusername/log/cron.log 2>&1
+
+
+# Every Day except Friday at 7:00am - Make a 5 day video
+0 7 * * 0,1,2,3,4,6 /home/yourusername/weather/make_vid.sh -d 5 > /home/yourusername/log/cron.log 2>&1
+
+
+# Every 15 minutes - Grab new remote image
+*/15 * * * * python /home/yourusername/weather/weather.py
+
+
+# every Day at midnight - Delete video files older than 30 days
+00 00 * * * find /home/yourusername/weather_video/ -type f -mtime +30 | xargs rm
+
+
+

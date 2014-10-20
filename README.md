@@ -11,6 +11,7 @@ Download and archive images from a remote server, then compile them into a video
 * **make_vid.sh** – Grabs downloaded images by date range, converts them into a webm video, and calls the YouTube upload python script.
 * **post_to_youtube.py** – Creates title & description for a video and uploads it to YouTube.
 * **weather.db** – Sqlite3 database. Stores information about every video uploaded to YouTube.
+* **crontab.sample** – Examples of some handy cron jobs.
 
 
 
@@ -32,6 +33,8 @@ Download and archive images from a remote server, then compile them into a video
 ### To-do
 
 * [ ] Code cleanup and better documentation.
+* **weather.py**
+  * [ ] Add helpful logging.
 * **make_vid.sh**
   * [ ] Allow for true custom date ranges, instead of the *last-x-days* style that is currently used.
 * **post_to_youtube.py**
