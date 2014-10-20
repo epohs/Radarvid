@@ -20,9 +20,10 @@ Download and archive images from a remote server, then compile them into a video
 *I'm not too sure, to be honest. This has been tested on Debian Linux 7 (wheezy). But, I haven't taken time to test on various versions of software. If you do test for yourself, and have feedback for me, please by all means let me know.*
 
 * Bash
-* Python
-* ImageMagick
 * ffmpeg
+* ImageMagick
+* Python
+* Sqlite3
 
 
 
