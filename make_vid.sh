@@ -71,9 +71,7 @@ newest_img_date=$(stat -c%y $newest_img)
 
 SPTH+="${VIDDIR}/"
 SPTH+="$(date +%Y)/"
-#SPTH+='/'
 SPTH+="$(date +%m)/"
-#SPTH+='/'
 SPTH+=$(date +%d)
 
 TIMESTMP=$(date +%H:%M:%S)
